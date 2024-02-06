@@ -1,5 +1,6 @@
 # Practical related Questions
 ### Create `Products` collections and perform following queries on it. [2 hr]
+```
 {
   "_id": ObjectId("5f8a4c261c9d4400001a4af4"),
   "name": "Laptop",
@@ -7,6 +8,7 @@
   "category": "Electronics",
   "stock": 50
 }
+```
    - Create a database named `OnlineStore` and a collection named `Products` with at least 4 fields.
    - Insert at least 10 records into the `Products` collection with various product details.
    - Retrieve and display all the documents inserted into the `Products` collection.
