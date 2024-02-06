@@ -1,5 +1,5 @@
 # Practical related Questions
-### Create `Products` collections and perform following queries on it. [2 hr]
+### 1. Create `Products` collections and perform following queries on it. [2 hr]
 ```
 {
   "_id": ObjectId("5f8a4c261c9d4400001a4af4"),
