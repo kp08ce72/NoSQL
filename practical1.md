@@ -1,7 +1,7 @@
 # Multiple Choice Questions:<br/>
 ### What does the term "NoSQL" stand for?<br/>
 a) Non-Operational SQL<br/>
-b) Not Only SQL<br/>
+**b) Not Only SQL**<br/>'#00ff00'
 c) New Operational SQL<br/>
 d) None of the above<br/>
 ### What is the primary advantage of NoSQL databases over traditional relational databases?<br/>
