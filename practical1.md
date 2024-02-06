@@ -1,55 +1,55 @@
-#Multiple Choice Questions:
-###What does the term "NoSQL" stand for?
-a) Non-Operational SQL
-b) Not Only SQL
-c) New Operational SQL
-d) None of the above
-What is the primary advantage of NoSQL databases over traditional relational databases?
-a) Strict schema enforcement
-b) Limited scalability
-c) Flexibility in handling unstructured data
-d) Exclusive use of SQL language
-In the CAP theorem, what does "P" stand for?
-a) Performance
-b) Partition Tolerance
-c) Persistence
-d) Provisioning
-Which NoSQL database is best suited for managing and querying interconnected data, such as social networks?
-a) MongoDB
-b) Cassandra
-c) Neo4j
-d) Redis
-What type of data model does a Key-Value Store NoSQL database follow?
-a) Tabular
-b) Document-oriented
-c) Graph
-d) Key-Value
-Which NoSQL database emphasizes availability and partition tolerance over consistency?
-a) MongoDB
-b) Cassandra
-c) Neo4j
-d) Redis
-What is the purpose of the CAP theorem in the context of distributed NoSQL databases?
-a) To prioritize performance over consistency
-b) To highlight trade-offs in achieving consistency, availability, and partition tolerance
-c) To enforce a specific data model for NoSQL databases
-d) To determine the optimal database for all use cases
-Which factor is crucial in deciding the appropriate NoSQL database for an application?
-a) Number of tables in the database
-b) Size of the development team
-c) Specific use case requirements
-d) Operating system compatibility
-What does "ACID" stand for in the context of database transactions?
-a) Asynchronous Communication and Integrated Data
-b) Atomicity, Consistency, Isolation, Durability
-c) Advanced Consistency and Incremental Development
-d) Automated Cloud-based Integrated Database
-Match each NoSQL database type to its corresponding description.
-A. Document-oriented
-B. Key-Value Stores
-C. Column-family Stores
-D. Graph Databases	i. Stores data in flexible, JSON-like documents.
-ii. Simplest NoSQL model, storing data as key-value pairs.
-iii. Organizes data into columns rather than rows.
-iv. Designed for managing and querying interconnected data.
-
+# Multiple Choice Questions:<br/>
+### What does the term "NoSQL" stand for?<br/>
+a) Non-Operational SQL<br/>
+b) Not Only SQL<br/>
+c) New Operational SQL<br/>
+d) None of the above<br/>
+### What is the primary advantage of NoSQL databases over traditional relational databases?<br/>
+a) Strict schema enforcement<br/>
+b) Limited scalability<br/>
+c) Flexibility in handling unstructured data<br/>
+d) Exclusive use of SQL language<br/>
+### In the CAP theorem, what does "P" stand for?<br/>
+a) Performance<br/>
+b) Partition Tolerance<br/>
+c) Persistence<br/>
+d) Provisioning<br/>
+### Which NoSQL database is best suited for managing and querying interconnected data, such as social networks?<br/>
+a) MongoDB<br/>
+b) Cassandra<br/>
+c) Neo4j<br/>
+d) Redis<br/>
+### What type of data model does a Key-Value Store NoSQL database follow?<br/>
+a) Tabular<br/>
+b) Document-oriented<br/>
+c) Graph<br/>
+d) Key-Value<br/>
+### Which NoSQL database emphasizes availability and partition tolerance over consistency?<br/>
+a) MongoDB<br/>
+b) Cassandra<br/>
+c) Neo4j<br/>
+d) Redis<br/>
+### What is the purpose of the CAP theorem in the context of distributed NoSQL databases?<br/>
+a) To prioritize performance over consistency<br/>
+b) To highlight trade-offs in achieving consistency, availability, and partition tolerance<br/>
+c) To enforce a specific data model for NoSQL databases<br/>
+d) To determine the optimal database for all use cases<br/>
+### Which factor is crucial in deciding the appropriate NoSQL database for an application?<br/>
+a) Number of tables in the database<br/>
+b) Size of the development team<br/>
+c) Specific use case requirements<br/>
+d) Operating system compatibility<br/>
+### What does "ACID" stand for in the context of database transactions?<br/>
+a) Asynchronous Communication and Integrated Data<br/><br/>
+b) Atomicity, Consistency, Isolation, Durability<br/>
+c) Advanced Consistency and Incremental Development<br/>
+d) Automated Cloud-based Integrated Database<br/>
+# Match each NoSQL database type to its corresponding description.<br/>
+A. Document-oriented<br/>
+B. Key-Value Stores<br/>
+C. Column-family Stores<br/>
+D. Graph Databases	i. Stores data in flexible, JSON-like documents.<br/>
+ii. Simplest NoSQL model, storing data as key-value pairs.<br/>
+iii. Organizes data into columns rather than rows.<br/>
+iv. Designed for managing and querying interconnected data.<br/>
+<br/>
