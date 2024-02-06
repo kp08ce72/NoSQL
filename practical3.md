@@ -14,7 +14,7 @@
    - Find and display records in the `Products` collection based on a specific criterion, e.g., category.
    - Retrieve and display the documents in the `Products` collection, sorted by price in ascending order.
    - Delete a record from the `Products` collection based on a given condition.
-'''
+```
 // Create a database named `OnlineStore` and a collection named `Products` with at least 4 fields.
 use OnlineStore
 db.createCollection("Products")
@@ -59,4 +59,4 @@ db.Products.find().sort({ "price": 1 })
 
 // Delete a record from the `Products` collection based on a given condition.
 db.Products.deleteOne({ "name": "T-shirt" }) // Delete a T-shirt record, for example
-'''
+```
