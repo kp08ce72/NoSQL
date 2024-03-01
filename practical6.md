@@ -4,7 +4,7 @@
 ## Multiple Choice Questions (MCQs):
 ### 1. What are the fundamental components of graph databases?
    a) Rows and columns
-<span style="color:blue">**b) Nodes, edges, and properties**<span>
+   **b) Nodes, edges, and properties**
    c) Tables and fields
    d) Documents and collections
 ### 2. Which query language is commonly used for data manipulation and retrieval in graph databases?
