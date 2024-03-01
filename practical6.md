@@ -1,10 +1,8 @@
 
-# Practical related Questions
-
 ## Multiple Choice Questions (MCQs):
 ### 1. What are the fundamental components of graph databases?
    a) Rows and columns
-   **b) Nodes, edges, and properties**
+<span style="color:blue">**b) Nodes, edges, and properties**<span>
    c) Tables and fields
    d) Documents and collections
 ### 2. Which query language is commonly used for data manipulation and retrieval in graph databases?
@@ -48,17 +46,17 @@
    **c) Fraud detection**
    d) Time series analysis
 ### 10. How is the installation location of Neo4j referred to in the instructions?
-    a) N4J_HOME
-    b) NEO4J_DIR
-    c) JAVA_HOME
-    **d) NEO4J_HOME**
+   a) N4J_HOME
+   b) NEO4J_DIR
+   c) JAVA_HOME
+   **d) NEO4J_HOME**
 ### 11. To access Neo4j Browser, you should visit:
-    a) http://localhost:8080
-    **b) http://localhost:7474**
-    c) http://127.0.0.1:8000
-    d) http://neo4j-browser.com
+   a) http://localhost:8080
+   **b) http://localhost:7474**
+   c) http://127.0.0.1:8000
+   d) http://neo4j-browser.com
 ### 12. What command is used to start Neo4j as a console application?
-    **a) neo4j console**
-    b) neo4j start-console
-    c) start-neo4j
-    d) init-neo4j
+   **a) neo4j console**
+   b) neo4j start-console
+   c) start-neo4j
+   d) init-neo4j
