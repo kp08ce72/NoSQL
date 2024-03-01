@@ -60,3 +60,20 @@
    b) neo4j start-console<br/>
    c) start-neo4j<br/>
    d) init-neo4j<br/>
+
+## Match the Following:
+
+1. Node - d) An entity in the graph.
+2. Cypher - c) Query language for graph databases.
+3. Amazon Neptune - a) A managed graph database service by AWS.
+4. Edge - b) Represents a relationship between two nodes.
+5. Neo4j - e) Represents users and items in a recommendation system.
+
+## True/False:
+
+1. False - Graph databases are particularly well-suited for scenarios where relationships between entities are important.
+2. False - The Cypher query language is specifically designed for querying graph databases, not relational databases.
+3. False - Nodes in a graph database represent entities, while edges represent relationships between entities.
+4. False - Amazon Neptune is an example of a graph database, not a document database.
+5. False - Graph databases are efficient in handling queries involving relationships.
+6. False - To install Neo4j as a service, the command is <NEO4J_HOME>\bin\neo4j install-service.
