@@ -274,3 +274,77 @@ rs.stepDown()
 db.collection.createIndex({ "field1": "text", "field2": "text" })
 
 ```
+**MongoDB Sharding and Replication Setup (Localhost)**
+
+This document outlines the step-by-step setup for configuring replication and sharding in MongoDB on localhost for demonstration purposes.
+
+---
+## **1. Config Server Setup**
+Config servers store metadata for sharding. Here, we set up a replica set with two config servers.
+
+### **Start Config Servers**
+Execute the following commands to start the config servers:
+
+```sh
+mongod --configsvr --port 28041 --bind_ip localhost --replSet config_repl --dbpath D:\mongodb_data\repl\configsrv
+```
+
+```sh
+mongod --configsvr --port 28042 --bind_ip localhost --replSet config_repl --dbpath D:\mongodb_data\repl\configsrv1
+```
+
+### **Initiate Config Server Replica Set**
+Open a Mongo shell and connect to one of the config servers:
+
+```sh
+mongosh --host localhost --port 28041
+```
+
+Run the following configuration:
+
+```javascript
+rsconf = {
+  _id: "config_repl",
+  members: [
+    { _id: 0, host: "localhost:28041" },
+    { _id: 1, host: "localhost:28042" }
+  ]
+};
+rs.initiate(rsconf);
+rs.status();
+```
+
+---
+## **2. Shard Server Setup**
+Shards store the actual data. Below are the steps to set up two shard replica sets.
+
+### **Shard 1: Setup and Initiation**
+Start the shard servers:
+
+```sh
+mongod --shardsvr --port 28081 --bind_ip localhost --replSet shard_repl --dbpath D:\mongodb_data\shard\shardrep1
+```
+
+```sh
+mongod --shardsvr --port 28082 --bind_ip localhost --replSet shard_repl --dbpath D:\mongodb_data\shard\shardrep2
+```
+
+Connect to the primary shard:
+
+```sh
+mongosh --host localhost --port 28081
+```
+
+Initiate the replica set:
+
+```javascript
+rsconf = {
+  _id: "shard_repl",
+  members: [
+    { _id: 0, host: "localhost:28081" },
+    { _id: 1, host: "localhost:28082" }
+  ]
+};
+rs.initiate(rsconf);
+rs.status();
+```
